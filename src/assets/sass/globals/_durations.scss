@@ -1,0 +1,5 @@
+// BASE
+$duration-animation-base: 300ms;
+
+// INPUT
+$duration-animation-input: ($duration-animation-base * 0.3333333333) + $duration-animation-base;
