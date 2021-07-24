@@ -37,42 +37,42 @@ module.exports = {
         }
       }
     },
-    {
-      use: "@gridsome/vue-remark",
-      options: {
-        typeName: "Post", // Required
-        baseDir: "./cats", // Where .md files are located
-        pathPrefix: "/cats", // Add route prefix. Optional
-        template: "./src/templates/Post.vue", // Optional
-        remark: {
-          autolinkHeadings: false // disable auto-adding links to headings
-        }
-      }
-    },
-    {
-      use: "@gridsome/vue-remark",
-      options: {
-        typeName: "Post", // Required
-        baseDir: "./dogs", // Where .md files are located
-        pathPrefix: "/dogs", // Add route prefix. Optional
-        template: "./src/templates/Post.vue", // Optional
-        remark: {
-          autolinkHeadings: false // disable auto-adding links to headings
-        }
-      }
-    },
-    {
-      use: "@gridsome/vue-remark",
-      options: {
-        typeName: "Post", // Required
-        baseDir: "./birds", // Where .md files are located
-        pathPrefix: "/birds", // Add route prefix. Optional
-        template: "./src/templates/Post.vue", // Optional
-        remark: {
-          autolinkHeadings: false // disable auto-adding links to headings
-        }
-      }
-    },
+    // {
+    //   use: "@gridsome/vue-remark",
+    //   options: {
+    //     typeName: "Post", // Required
+    //     baseDir: "./cats", // Where .md files are located
+    //     pathPrefix: "/cats", // Add route prefix. Optional
+    //     template: "./src/templates/Post.vue", // Optional
+    //     remark: {
+    //       autolinkHeadings: false // disable auto-adding links to headings
+    //     }
+    //   }
+    // },
+    // {
+    //   use: "@gridsome/vue-remark",
+    //   options: {
+    //     typeName: "Post", // Required
+    //     baseDir: "./dogs", // Where .md files are located
+    //     pathPrefix: "/dogs", // Add route prefix. Optional
+    //     template: "./src/templates/Post.vue", // Optional
+    //     remark: {
+    //       autolinkHeadings: false // disable auto-adding links to headings
+    //     }
+    //   }
+    // },
+    // {
+    //   use: "@gridsome/vue-remark",
+    //   options: {
+    //     typeName: "Post", // Required
+    //     baseDir: "./birds", // Where .md files are located
+    //     pathPrefix: "/birds", // Add route prefix. Optional
+    //     template: "./src/templates/Post.vue", // Optional
+    //     remark: {
+    //       autolinkHeadings: false // disable auto-adding links to headings
+    //     }
+    //   }
+    // },
     {
       use: '@gridsome/source-graphql',
       options: {

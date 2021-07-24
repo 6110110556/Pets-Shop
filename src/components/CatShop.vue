@@ -24,7 +24,6 @@
                   <template #footer>
                     <b-button href="#" variant="primary">Add to Cart</b-button>
                   </template>
-                  <!-- <b-button href="#" variant="primary">Add Card</b-button> -->
                 </b-card>
               </b-card-group>
             </div>
